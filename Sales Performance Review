@@ -1,0 +1,308 @@
+ In order to accelerate growth and strengthen Walmart’s competitive advantage, this study seeks to provide strategic insights that can guide more intelligent inventory planning, adjust pricing strategies, and improve customer happiness by identifying significant sales patterns and trends.
+
+
+
+Problem Statement
+
+As competition intensifies in the retail landscape, Walmart must continuously evolve through data-driven decision-making to uncover untapped growth potential. This analysis seeks to identify high-performing regions and product categories, detect fluctuations and patterns in annual sales from 2011 to 2014, and spotlight the items contributing most to profitability. The ultimate goal is to provide a roadmap that helps Walmart reduce losses, capitalize on demand trends, and sustain a long-term competitive advantage in the market.
+
+Key Datasets and Methodologies
+
+This study is based on a sales data set that includes performance, supermarket branches activities, products, gross income, and time of sales.
+
+Analytical Tools and Techniques:
+
+Microsoft Excel was utilized for data analysis, employing pivot tables and charts to summarize and visualize key trends. Pivot tables facilitated data categorization and filtering using slicers.
+
+Story of the data used
+
+Data Source: The dataset used for this analysis is sourced from Kaggle, a widely recognized platform for open-source datasets, providing structured sales data relevant to a Walmart. The data is telling a story about different goods purchased by different customers located in different cities in the United States. It highlights the order ID, order date and shipping date to understand the order/shipping duration. The data also tells us the sales price, the units purchased, and the profit made from each transaction.
+
+Data Structure: Each row in the dataset represents an individual sales transaction, with columns detailing various attributes:
+
+Order ID: Unique identifier for each transaction
+
+Order Date: Date when the order was placed
+
+Customer information: Identifies the purchasing customer
+
+Address, City, Branches: Customer’s location details
+
+Product name: identifies product purchased
+
+Product category: group of the purchased item
+
+Unit Price & Quantity: Price per unit and number of units purchased
+
+Profit: Total sales value of the transaction
+
+Key Features and Their Significance
+
+1. Sales Trend: Assessing the performance of each year provides insights into their contribution to the generation of gross income. Recognizing top performers and implementing targeted training or incentive programs can enhance overall sales efficiency.
+
+2. Revenue Analysis: As a key financial metric, revenue trends provide insights into business performance, guiding strategic decisions regarding pricing, product offerings, and sales strategies
+
+3. Product Line: Identifying high-performing product lines, aids in inventory optimization, pricing strategies, and targeted marketing. Prioritizing top-selling products enhances overall sales performance.
+
+4. Customer Behavior: Understanding purchasing patterns helps in identifying high-value customers and enables personalized marketing efforts that enhance customer retention and lifetime value.
+
+Data Limitations and Biases
+
+While the dataset offers valuable insights, it has certain limitations such as
+
+1). Limited Scope: The analysis is based on data from Walmart, with so many customers, making it stressful to finetune individual information.
+
+2). Despite these constraints, the dataset is complete, with no missing values or inconsistencies, ensuring reliable analysis.
+
+Data Splitting and Preprocessing
+
+Data Cleaning: The dataset required minimal formatting, as it was well-structured with no missing values, no duplicates, or inconsistencies. The few modifications involved formatting column headings for consistency and clarity.
+
+Data Transformations: No additional transformations were performed, as the dataset was already structured appropriately for analysis. The data was only put on a standard excel table
+
+Data Splitting: To facilitate analysis, the dataset was divided into independent and dependent values:
+
+Independent value: Order Id, Order date, Ship date, Customer name, Country, City, State, Category, Product name
+
+Dependent value: Sales, Quantity, Profit
+
+Industry Context
+
+The dataset is relevant to Walmart, where revenue generation is a critical factor for business sustainability. Understanding sales trends, customer preferences, and product category performance enables her to optimize product offerings and maximize profitability.
+
+Stakeholders
+
+Business Owners: To identify revenue-driving factors and make data-driven business decisions.
+
+Investors: To assess the Walmart financial performance and growth potential for the year 2011 to 2014.
+
+Value to the Industry
+
+This analysis provides strategic insights that can enhance operational efficiency and revenue generation in Walmart.
+
+1. Revenue Growth & Profitability: Identifying best-selling products, top-performing category, monthly trends, enables businesses to refine pricing strategies, promotional efforts, and sales tactics.
+
+2. Market Expansion Opportunities: Walmart sales performance analysis supports strategic decision-making regarding potential store expansions into high-demand areas.
+
+3. Optimized Inventory Management: Timely identification of sales trends ensures efficient stock replenishment, reducing the risk of stockouts or overstocking.
+
+By utilizing data analytics, Walmart can enhance decision-making processes, streamline operations, and create sustainable growth strategies.
+
+Pre-Analyzes
+
+The total daily, monthly or yearly sales/ unit sold/ profits
+
+Customer performance analysis based on purchase/ profits generated
+
+best performing product by quantity
+
+best performing goods by sales/profits
+
+best performing goods for the year by quantity
+
+In-Analysis observations
+
+1). The total sum of sales from 2011 to 2014 is $725,457.82.
+
+2). Sum of sales was highest in 2014 ($250,632.53)
+
+3). Sum of sales was lowest in 2012 ($139,966.25)
+
+4). Raymond Buch purchases brought in more profit of $6,807.09 while Sharelle Roach brought in the highest negative profits (-$3,424.35)
+
+5). The best State by units purchased in California (2001 units) while Wyoming got the lowest during the 4 years (1).
+
+6). The top city by sales is Los Angeles ($175,851.34). San Luis Obispo had the lowest sales ($3.62)
+
+7). The best product by profits is Canon image CLASS 2200 Advanced Copier ($6,719.98) while Lexmark MX611dhe Monochrome Laser Printer had the highest negative profits (-$3,399.98)
+
+8). William got the most units of goods from Walmart between 2011 and 2014 (24 units). However, over 100 customers got only one item.
+
+9). The best category by sales is Chairs ($101,781.33) while the lowest is Fasteners ($923.22)
+
+There were low sales in 2012. This shows a drop from the total sales in 2011. However, there has been a continuous yearly increase since 2012. I recommend that stakeholders should continue with the current sales promotion strategy since its still given result.
+
+2). Raymond Buch should be given the award to encourage him to do better the coming year and at the same time the gesture can serve as a form of morale for other customers to want to make more orders.
+
+William should also be appreciated for topping the list of total number of units purchased’
+
+3) Stakeholders should carry out investigations on customers like Sharelie Roach and others from whose purchase, losses were incurred. This will allow us to know if the loss incurred was an inevitable form of theft. Check their relationship with the workers, their mode of purchase, method of payment and any little thing that can help answer that question
+
+4). California State is the powerhouse from which Walmart made most of the sales, I recommend that the Headquarter should be moved to Los Angeles in California that accounted for most of the sales. This will help to reduce the delivery duration of goods since most units of items are ordered by the residence. This could entice them to do more and also reduce the cost of delivery at the same time.
+
+5) I recommend that the firm should focus more on items that bring in more profit such as Canon image CLASS 2200 Advanced Copier, Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind etc. Make sure these items are always in stock. Stock less of those items with fewer demands.
+
+6). Sales promotion should be planned in areas with low sales such as Wyoming. This will help to boost the demand coming from those areas.
+
+Press enter or click to view image in full size
+
+Post-Analysis and insights
+
+Category:
+
+Accessories
+
+A total of $61,114.12 was made. 2011: $8,926.24, 2012: $10,675.76, 2013: $15,482.42, 2014: $26,029.69. The largest number of these accessories were purchased in California and Los Angeles made the highest purchase of $18,463.05. The total profit made on Accessories was $16,484.60.
+
+Appliances
+
+Write on Medium
+A total of $30,236.34 was made. 2011: $3,755.50, 2012: $7,725.19, 2013: $5,001.25, 2014: $13,754.40. The largest number of these appliances were purchased in California and Los Angeles made the highest purchase of $8,577.33. The total profit made on Appliances was $8,261.27.
+
+Art
+
+A total of $9,212.07 was made. 2011: $3,379.69, 2012: $2,034.99, 2013: $1,116.48, 2014: $2,680.90. The largest number of these art were purchased in California and Los Angeles made the highest purchase of $1,828.11. The total profit made on Art was $2,374.10.
+
+Binders
+
+A total of $55,961.11 was made. 2011: $12,963.25, 2012: $3,888.51, 2013: $12,361.04, 2014: $26,748.31. The largest number of these binders were purchased in California, however Seattle in Washington made the highest purchase of $17,700.15. The total profit made on binders was $16,096.80.
+
+Bookcases
+
+A total of $36,004.12 was made. 2011: $6,544.91, 2012: $9,353.81, 2013: $8,217.08, 2014: $11,888.31. The largest number of these bookcases were purchased in California and Los Angeles made the highest purchase of $10,154.87. However, Walmart did not make profit from the total sales but incurred a loss of ($1,646.51).
+
+Chairs
+
+A total of $101,781.33 was made. 2011 $21,406.98 2012 $23,700.02 2013 $31,227.42 2014 $25,446.92. The largest number of these chairs were purchased in California and Los Angeles made the highest purchase of $17,654.62. The total profit made on chairs was $4,027.58.
+
+Copiers
+
+A total of $49,749.24 was made. 2011: $2,999.95, 2012: $7,509.82, 2013: $9,779.80, 2014: $29,459.68. The largest number of these copiers were purchased in California, however Seattle in Washington made the highest purchase of $17,449.88. The total profit made on Copiers was $19,327.24.
+
+Envelops
+
+A total of $4,118.10 was made. 2011: $657.59, 2012: $1,355.44, 2013: $1,558.60, 2014: $546.47. The largest number of these envelopes were purchased in California and Los Angeles made the highest purchase of $1,156.22. The total profit made on Envelope was $1,908.76.
+
+Fasteners
+
+A total of $923.22 was made. 2011: $276.81, 2012: $139.55, 2013: $263.72, 2014: $243.14. The largest number of these fasteners were purchased in California and Los Angeles made the highest purchase of $223.00. The total profit made on Fasteners was $275.19.
+
+Furnishings
+
+A total of $30,072.73 was made. 2011: $4,372.32, 2012: $7,913.43, 2013: $7,788.51, 2014: $9,998.47. The largest number of these furnishings were purchased in California and Los Angeles made the highest purchase of $10,154.87. The total profit made on Furnishings was $7,641.27.
+
+Labels
+
+A total of $5,078.73 was made. 2011: $875.74, 2012: $1,017.65, 2013: $1,248.63, 2014: $1,936.71. The largest number of these Labels were purchased in California, however Kent in Washington made the highest purchase of $786.48. The total profit made on Labels was $2,303.12.
+
+Machines
+
+A total of $42,444.12 was made. 2011: $3,500.10, 2012: $8,372.20, 2013: $14,793.56, 2014: $15,778.26. The largest number of these machines were purchased in California and Los Angeles made the highest purchase of $13,463.92. However, Walmart did not make profit from the total sales but incur a deficit of ($618.93).
+
+Paper
+
+A total of $49,749.24 was made. 2011: $2,999.95, 2012: $7,509.82, 2013: $9,779.80, 2014: $29,459.68. The largest number of these papers were purchased in California and Los Angeles made the highest purchase of $6,346.40. The total profit made on paper was $12,119.24.
+
+Phones
+
+A total of $98,684.35 was made. 2011: $29,527.44, 2012: $18,539.99, 2013: $25,623.02, 2014: $24,993.90. The largest number of these phones were purchased in California and Los Angeles made the highest purchase of $29,503.03. The total profit made on phones was $9,110.74.
+
+Storage
+
+A total of $70,532.85 was made. 2011: 2011: $16,313.39, 2012: $15,920.34, 2013: $13,040.73, 2014: $25,258.39. The largest number of these storage were purchased in California and Los Angeles made the highest purchase of $18,789.82. The total profit made on Storage is $8,645.32.
+
+Supplies
+
+A total of $18,127.12 was made. 2011: $9,238.43, 2012: $309.39, 2013: $6,440.11, 2014: $2,139.19. The largest number of these Supplies were purchased in California and San Francisco made the highest purchase of $13,586.39. The total profit made on Supplies was $626.05.
+
+Tables
+
+A total of $84,754.56 was made. 2011: $17,758.24, 2012: $16,037.68, 2013: $26,586.64, 2014: $24,372.01. The largest number of these tables were purchased in California, however Seattle in Washington made the highest purchase of $21,027.17. The total profit made on tables was $1,482.61.
+
+Sales trends:
+
+$725,457.82 was made in sales throughout the 4 years.
+
+$147,883.03 was made in 2011. The best 3 products in terms of profit generated were GBC DocuBind P400 Electric Binding System $1,061.57, Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind $762.59, and Canon PC1080F Personal Copier $701.99. Sales were mostly made from San Francisco $30,983.51, Los Angeles $28,882.70, and Seattle $23,531.99. The best customers in terms of profit generated were Gary Hwang $1,073.14, Mary Zewe $787.05, and Sample Company A $764.53.
+
+$139,966.25 was made in 2012. The best 3 products in terms of profit generated were Canon PC940 Copier $1,480.47, Hoover Upright Vacuum with Dirt Cup $755.67, and Zebra GX420t Direct Thermal/Thermal Transfer Printer $621.21. Sales were mostly made from Los Angeles $41,694.20, Seattle $22,859.21, and San Francisco $14,642.16. The top customer per profit generated were Fred Hopkins $1,930.46, John Lucas $725.69, and James Galang $641.47.
+
+$186,976.02 was made in 2013. The best 3 products per profit generated were Canon PC1060 Personal Laser Copier $1,889.97 Ibico EPK-21 Electric Binding System $1,644.29 Okidata MB760 Printer $881.37. Sales were mostly made from Los Angeles $56,398.75, San Francisco $29,807.50, and San Diego $18,321.00. The top customer per profit generated were Dennis Pardue $1,691.31, Christopher Conant $965.86, and Ionia McGrath $956.53.
+
+$250,632.53 was made in 2014. The best 3 products per profit generated were Canon image CLASS 2200 Advanced Copier $6,719.98, Fellowes PB500 Electric Punch Plastic Comb Binding Machine with Manual Bind $1,906.49, and Hewlett Packard LaserJet 3310 Copier $1,847.97. Sales were mostly made from Seattle $56,990.82, Los Angeles $48,875.69, and San Francisco $37,235.93. The top customer per profit generated were Raymond Buch $6,734.47, Jane Waco $1,942.04, and Alan Dominguez $1,535.89.
+
+Press enter or click to view image in full size
+
+Customer:
+
+Aaron Bergman
+
+is from Seattle in Washington, patronized Walmart only in 2011, bought goods worth $309.59 from 3 product categories. $242.94from storage, $48.71 from chairs and $17.94 from art. Hence, Walmart made $15.00 profit in total from these purchases, mostly from Global Push Buttons Manager’s Chair (indigo), Carina 42"Hx23 3/4"W Media Storage Unit and Newell 330 products.
+
+Aaron Hawkins
+
+purchased from Los Angeles and San Francisco in California, patronized Walmart in 2011 ($336.86 worth of goods) and 2012 ($991.26 worth of goods), bought goods worth $1,328.12 in total from 5 product categories. $668.16 from phones, $323.10 from storage, $279.46 from chairs, $49.41 from binders and $8.00 from paper. Hence, Walmart made $179.88 profit in total from these purchases, mostly from Geemarc AmpliPOWER60 ($75.17), Fellowes Super Stor/Drawer Files ($61.39), Iceberg Nesting Folding Chair, 19w x 6d x 43h ($20.96), GBC Velo Bind Cover Sets ($18.53) and EcoTones Memo Sheets ($3.84).
+
+Aaron Smayling
+
+purchased from San Francisco and Pasadena in California and Redmond in Oregon, patronized Walmart in 2013 ($477.67 worth of goods) and 2014 ($259.36 worth of goods), bought goods worth $737.03 in total from 3 product categories. $477.67 from bookcases, $171.29 from tables and $88.07 from binders. Walmart made $19.15 profit in total from these purchases. Although she made ($84.29) profits in the sales of Atlantic Metals Mobile 4-Shelf Bookcases, Custom Colors product, however there was a deficit in the sales of Lesro Sheffield Collection Coffee Table, End Table, Center Table, Corner Table ($6.42) and Avery Trapezoid Extra Heavy Duty 4" Binders ($58.72)
+
+Adam Bellavance
+
+purchased from Seattle and Des Moines in Washington and Los Angeles from California, patronized Walmart in 2012 ($18.54 worth of goods), and 2014 ($2,675.38 worth of goods), bought goods worth $2,693.92 in total from 4 product categories. $2,036.86 from tables, $449.57 from chairs, $188.95 from accessories and $18.54 from paper. Hence, Walmart made $363.78 profit in total from these purchases, mostly from Hon 5100 Series Wood Tables ($366.63), SanDisk Cruzer 64 GB USB Flash Drive ($32.69), Logitech G600 MMO Gaming Mouse ($28.80), Wirebound Message Books, Four 2 3/4" x 5" Forms per Page, 600 Sets per Book ($8.71). However, a loss in the sales of Hon 2090 Â“Pillow SoftÂ” Series Mid Back Swivel/Tilt Chairs ($73.05).
+
+Adam Hart
+
+purchased from Los Angeles and Huntington Beach in California, patronized Walmart in 2011 ($5.22 worths of goods), 2013 ($262.10 worths of goods), and 2014 ($196.45 worths of goods), bought goods worth $463.77 in total from 5 product categories. Walmart made $99.28 profit in total from these purchases .
+
+Adam Shillingsburg
+
+purchased from Seattle in Washington, patronized Walmart only in 2011, bought goods worth $13.97 from only Appliances category. Hence, Walmart made $3.63 profit in total from this purchase.
+
+Adrian Barton
+
+purchased from Phoenix in Arizona and Portland in Oregon, patronized Walmart in 2013 ($393.17 worth of goods) and 2014 ($937.01 worth of goods), bought goods worth $1,330.18 in total from 5 product categories. Walmart made a ($148.16) deficit in total from these purchases. Although she made profits in 3 products, the deficit made from the sales of the other 3 products were far higher.
+
+Alan Barnes
+
+patronized Walmart in 2012 ($660.27 worth of goods), and 2014 ($133.99 worth of goods), bought goods worth $794.26 in total from 6 product categories. Hence, Walmart made $133.52 profit in total from these purchases.
+
+Alan Dominguez
+
+patronized Walmart in 2014 ($4,353.34 worth of goods), goods purchased were from 3 product categories. Walmart made $1,535.89 profit in total from these purchases.
+
+Alan Hwang
+
+patronized Walmart in 2011 ($606.32 worths of goods), 2012 ($79.90 worths of goods), and 2014 ($1,178.18 worths of goods), bought goods worth $1,864.40 in total from 6 product categories. Walmart made $187.42 profit in total from these purchases.
+
+Alan Schoenberger
+
+patronized Walmart in 2013 ($165.60 worth of goods), and 2014 ($1,851.58 worth of goods), bought goods worth $2,017.18 in total from 6 product categories. Hence, Walmart made $262.22 profit in total from these purchases.
+
+Recommendation
+
+Ensure Steady Stock of Accessories
+Accessories have shown a consistent increase in demand over the 4-year period. Stakeholders should instruct managers to keep Accessories constantly in stock to avoid missed sales opportunities.
+
+Investigate Product-Level Profit Discrepancies
+Despite Accessories and Binders generating over $16,000 in profit collectively, some individual products recorded losses. Stakeholders should request detailed reports from managers to understand why certain items failed to be profitable.
+
+Address Losses in Bookcases and Machines
+While sales of Bookcases and Machines showed growth, Walmart still incurred losses in these categories. Stakeholders should investigate whether:
+
+There were system errors in pricing.
+
+Products were nearing expiration and had to be heavily discounted.
+
+Handling damages led to markdowns or write-offs.
+
+4. Implement Shelf-Life–Based Inventory Strategy
+If losses were due to expired or soon-to-expire items, the company should consider stocking products strategically based on shelf-life and implementing a First-In, First-Out (FIFO) inventory approach.
+
+5. Enforce Product Handling Policies
+If product damages are due to mishandling by staff, stakeholders should implement a disciplinary system — such as salary deductions — to encourage careful handling and minimize losses.
+
+6. Revitalize Underperforming Categories via Promotions
+Categories like Furnishings, Phones, Supplies, Tables, Storage, and Fasteners showed fluctuating sales. Targeted sales promotions, especially in underperforming cities, could help stabilize and grow their sales.
+
+7. Address Losses Despite Increased Machine Sales
+Machines continued to experience rising sales but still recorded losses. This anomaly should be urgently addressed to prevent a repeat in future fiscal periods.
+
+8. Analyse the 2014 Dip in Chairs and Envelopes
+After steady growth, Chairs and Envelopes experienced a drop in 2014. Stakeholders should evaluate market changes or internal factors that led to this decline.
+
+9. Sustain Current Sales Strategy with Adjustments
+After a slight dip in 2012, overall sales saw a significant rise. Managers should be encouraged to maintain and refine the current sales strategies, while also working to eliminate causes of product-level losses.
+
+10. Prioritize Sale of Older Stock
+Stakeholders should mandate that inventory officers strictly follow FIFO principles. This prevents stock expiration and reduces the need for deep discounts, preserving profit margins.
