@@ -1,5 +1,10 @@
 Success in today’s fast-paced retail environment depends on understanding what sells, where it sells best, and why. This study examines Walmart’s sales performance from 2011 to 2014, identifying the top-performing products, product categories, and revenue-generating areas. In order to accelerate growth and strengthen Walmart’s competitive advantage, this study seeks to provide strategic insights that can guide more intelligent inventory planning, adjust pricing strategies, and improve customer happiness by identifying significant sales patterns and trends.
 
+https://miro.medium.com/v2/resize:fit:1100/format:webp/1*0LpxF9qEWV3ZTqQs-Rv2NA.png
+
+
+
+
 Problem Statement
 
 As competition intensifies in the retail landscape, Walmart must continuously evolve through data-driven decision-making to uncover untapped growth potential. This analysis seeks to identify high-performing regions and product categories, detect fluctuations and patterns in annual sales from 2011 to 2014, and spotlight the items contributing most to profitability. The ultimate goal is to provide a roadmap that helps Walmart reduce losses, capitalize on demand trends, and sustain a long-term competitive advantage in the market.
